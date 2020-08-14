@@ -1,3 +1,4 @@
+import java.util.Collections;
 
 //this is git commit
 
@@ -16,7 +17,10 @@ class Store<T>{
 //added :: between item name and value
   public String toString()
   {
-	  return "item::"+item;
+	  ///changes by user1
+	  
+	  String str="item::"+item;
+	  return str;
   }
 }
 
@@ -25,6 +29,7 @@ public class Generics {
 	
 	public static void main(String[] args) {
 
+		
 	Store<String> Item1=new Store<>();
 	Item1.setItem("New Book");
 	
