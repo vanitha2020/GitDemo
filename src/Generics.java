@@ -13,10 +13,10 @@ class Store<T>{
 		this.item = item;
 	}
 
-	
+//added :: between item name and value
   public String toString()
   {
-	  return "item:"+item;
+	  return "item::"+item;
   }
 }
 
