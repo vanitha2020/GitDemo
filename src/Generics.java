@@ -1,4 +1,6 @@
 
+//this is git commit
+
 class Store<T>{
 	
 	public T item;
@@ -12,7 +14,10 @@ class Store<T>{
 	}
 
 	
-
+  public String toString()
+  {
+	  return "item:"+item;
+  }
 }
 
 public class Generics {
